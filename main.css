@@ -1,0 +1,103 @@
+
+
+body {
+  background-color: #F3F7FE;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.navbar a{
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.jumbotron{
+  background-image: url("images/hero2-clothes-hangers-rack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: -40px;
+  padding: 20%;
+  background-attachment: fixed;
+  background-position: center -238px;
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+  text-align:center;
+}
+
+.sign-up-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 220px;
+  height: 50px;
+  border:none;
+  border-radius: 2px;
+  background-color: #85A0DD;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.sign-up-button:hover {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition:0.1s ease;
+}
+.sign-up-button:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+  font-size: 3em;
+}
+
+.container-how-it-works {
+  padding: 5%;
+  margin-left: 25%;
+  font-size: 1.5em;
+}
+
+.media {
+  padding: 1%;
+}
+.media-object {
+  border-radius: 2px;
+}
+
+.container-pricing-types {
+  background-color: white;
+  padding: 2%;
+}
+.container-pricing {
+  background-color: white;
+  padding:1%;
+}
+
+footer {
+  background-color: #85A0DD;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  padding: 2%;
+  float: right;
+}
+
+footer p {
+  float: left;
+  padding: 2%;
+}
+footer a,
+footer p {
+  color: #fff;
+  vertical-align: middle;
+}
